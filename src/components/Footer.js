@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope, FaPhone, Fa
 import logo from '../assets/images/logo-mega-infotech.png';
 
 const Footer = () => {
-//   const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-mega-dark text-gray-300 border-t border-accent-cyan/20">
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p>&copy; 2024 MEGA INFOTECH - IT Consulting Services. All rights reserved. | <Link to="/contact" className="text-accent-cyan hover:text-white transition-colors">Privacy Policy</Link></p>
+          <p>&copy; {currentYear} MEGA INFOTECH - IT Consulting Services. All rights reserved. | <Link to="/contact" className="text-accent-cyan hover:text-white transition-colors">Privacy Policy</Link></p>
         </div>
       </div>
     </footer>

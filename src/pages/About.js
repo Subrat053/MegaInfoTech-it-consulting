@@ -60,7 +60,7 @@ const About = () => {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 cosmic-gradient-text">Our Story</h2>
               <p className="text-gray-300 mb-4 leading-relaxed">
-                Founded in 2009, MEGA INFOTECH began with a clear vision: to deliver enterprise-grade IT solutions that transform businesses. 
+                Founded in 2014, MEGA INFOTECH began with a clear vision: to deliver enterprise-grade IT solutions that transform businesses. 
                 What started as a small team of 5 consultants has grown into a trusted partner for 250+ enterprise clients across 30+ countries.
               </p>
               <p className="text-gray-300 mb-4 leading-relaxed">
@@ -165,19 +165,19 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-5xl font-bold mb-2 text-accent-cyan">15+</div>
+              <div className="text-5xl font-bold mb-2 text-accent-cyan">2+</div>
               <div className="text-gray-200">Years Experience</div>
             </div>
             <div>
-              <div className="text-5xl font-bold mb-2 text-accent-cyan">250+</div>
+              <div className="text-5xl font-bold mb-2 text-accent-cyan">50+</div>
               <div className="text-gray-200">Enterprise Clients</div>
             </div>
             <div>
-              <div className="text-5xl font-bold mb-2 text-accent-cyan">1000+</div>
+              <div className="text-5xl font-bold mb-2 text-accent-cyan">100+</div>
               <div className="text-gray-200">Successful Projects</div>
             </div>
             <div>
-              <div className="text-5xl font-bold mb-2 text-accent-cyan">200+</div>
+              <div className="text-5xl font-bold mb-2 text-accent-cyan">20+</div>
               <div className="text-gray-200">Expert Consultants</div>
             </div>
           </div>
