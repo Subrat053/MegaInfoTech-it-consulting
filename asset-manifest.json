@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MegaInfoTech-it-consulting/static/css/main.ceccdbf0.css",
-    "main.js": "/MegaInfoTech-it-consulting/static/js/main.19cf4938.js",
+    "main.js": "/MegaInfoTech-it-consulting/static/js/main.abe1ca20.js",
     "static/js/453.b7629328.chunk.js": "/MegaInfoTech-it-consulting/static/js/453.b7629328.chunk.js",
     "static/media/hero-desktop.mp4": "/MegaInfoTech-it-consulting/static/media/hero-desktop.cddb559444c2118ab781.mp4",
     "static/media/logo-mega-infotech.png": "/MegaInfoTech-it-consulting/static/media/logo-mega-infotech.ae6d36b14730b41fb925.png",
     "index.html": "/MegaInfoTech-it-consulting/index.html",
     "main.ceccdbf0.css.map": "/MegaInfoTech-it-consulting/static/css/main.ceccdbf0.css.map",
-    "main.19cf4938.js.map": "/MegaInfoTech-it-consulting/static/js/main.19cf4938.js.map",
+    "main.abe1ca20.js.map": "/MegaInfoTech-it-consulting/static/js/main.abe1ca20.js.map",
     "453.b7629328.chunk.js.map": "/MegaInfoTech-it-consulting/static/js/453.b7629328.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ceccdbf0.css",
-    "static/js/main.19cf4938.js"
+    "static/js/main.abe1ca20.js"
   ]
 }
