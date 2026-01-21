@@ -11,7 +11,7 @@ const Blog = () => {
       author: 'John Smith',
       date: 'January 15, 2026',
       category: 'Web Development',
-      image: 'https://via.placeholder.com/600x400/3B82F6/FFFFFF?text=Web+Development',
+      image: 'https://source.unsplash.com/1200x800/?web,development,code',
       readTime: '5 min read'
     },
     {
@@ -21,7 +21,7 @@ const Blog = () => {
       author: 'Sarah Johnson',
       date: 'January 12, 2026',
       category: 'Design',
-      image: 'https://via.placeholder.com/600x400/3B82F6/FFFFFF?text=Mobile+Design',
+      image: 'https://source.unsplash.com/1200x800/?mobile,ui,design',
       readTime: '7 min read'
     },
     {
@@ -31,7 +31,7 @@ const Blog = () => {
       author: 'Michael Chen',
       date: 'January 10, 2026',
       category: 'Digital Marketing',
-      image: 'https://via.placeholder.com/600x400/3B82F6/FFFFFF?text=SEO+Strategies',
+      image: 'https://source.unsplash.com/1200x800/?seo,analytics,marketing',
       readTime: '6 min read'
     },
     {
@@ -41,7 +41,7 @@ const Blog = () => {
       author: 'Emily Davis',
       date: 'January 8, 2026',
       category: 'Development',
-      image: 'https://via.placeholder.com/600x400/3B82F6/FFFFFF?text=React+Performance',
+      image: 'https://source.unsplash.com/1200x800/?javascript,code,performance',
       readTime: '8 min read'
     },
     {
@@ -51,7 +51,7 @@ const Blog = () => {
       author: 'Lisa Anderson',
       date: 'January 5, 2026',
       category: 'Branding',
-      image: 'https://via.placeholder.com/600x400/3B82F6/FFFFFF?text=Brand+Identity',
+      image: 'https://source.unsplash.com/1200x800/?branding,design,logo',
       readTime: '5 min read'
     },
     {
@@ -61,7 +61,7 @@ const Blog = () => {
       author: 'Robert Chen',
       date: 'January 3, 2026',
       category: 'Design',
-      image: 'https://via.placeholder.com/600x400/3B82F6/FFFFFF?text=UX+Design',
+      image: 'https://source.unsplash.com/1200x800/?ux,ui,design',
       readTime: '6 min read'
     }
   ];

@@ -4,10 +4,10 @@ import { FaAward, FaUsers, FaLightbulb, FaHeart } from 'react-icons/fa';
 
 const About = () => {
   const team = [
-    { name: 'John Smith', role: 'CEO & Founder', image: 'https://via.placeholder.com/300x300/3B82F6/FFFFFF?text=JS' },
-    { name: 'Sarah Johnson', role: 'Creative Director', image: 'https://via.placeholder.com/300x300/3B82F6/FFFFFF?text=SJ' },
-    { name: 'Michael Chen', role: 'Lead Developer', image: 'https://via.placeholder.com/300x300/3B82F6/FFFFFF?text=MC' },
-    { name: 'Emily Davis', role: 'Marketing Head', image: 'https://via.placeholder.com/300x300/3B82F6/FFFFFF?text=ED' }
+    { name: 'John Smith', role: 'CEO & Founder', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=faces' },
+    { name: 'Sarah Johnson', role: 'Creative Director', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&fit=crop&crop=faces' },
+    { name: 'Michael Chen', role: 'Lead Developer', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=faces' },
+    { name: 'Emily Davis', role: 'Marketing Head', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=faces' }
   ];
 
   const values = [
