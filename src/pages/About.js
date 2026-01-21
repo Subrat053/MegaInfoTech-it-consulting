@@ -34,7 +34,7 @@ const About = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div className="pt-24">
       <Helmet>
         <title>About MEGA INFOTECH - Enterprise IT Consulting Company</title>
         <meta name="description" content="MEGA INFOTECH is a leading enterprise IT consulting firm with 15+ years of experience. Expert team delivering cloud, cybersecurity, and digital transformation." />
@@ -132,7 +132,7 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-mega-dark border-t border-accent-cyan/20">
+      {/* <section className="py-20 bg-mega-dark border-t border-accent-cyan/20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white cosmic-gradient-text mb-4">
@@ -158,7 +158,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Stats Section */}
       <section className="py-20 bg-mega-gradient text-white">

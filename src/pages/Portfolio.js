@@ -77,7 +77,7 @@ const Portfolio = () => {
     : projects.filter(project => project.category === activeFilter);
 
   return (
-    <div className="pt-16">
+    <div className="pt-24">
       <Helmet>
         <title>Case Studies | MEGA INFOTECH - Enterprise IT Solutions</title>
         <meta name="description" content="Explore MEGA INFOTECH's successful case studies. Cloud migrations, cybersecurity, digital transformation, and custom development solutions." />

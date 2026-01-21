@@ -55,7 +55,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div className="pt-24">
       <Helmet>
         <title>IT Consulting Services | MEGA INFOTECH - Enterprise Solutions</title>
         <meta name="description" content="MEGA INFOTECH provides cloud solutions, cybersecurity, digital transformation, custom development, and IT consulting for enterprises." />

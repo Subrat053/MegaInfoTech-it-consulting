@@ -6,7 +6,7 @@ import Button from '../components/Button';
 
 const NotFound = () => {
   return (
-    <div className="pt-16 min-h-screen bg-gray-50 flex items-center">
+    <div className="pt-24 min-h-screen bg-gray-50 flex items-center">
       <Helmet>
         <title>404 - Page Not Found | Digital Agency</title>
         <meta name="description" content="The page you are looking for could not be found." />

@@ -69,7 +69,7 @@ const Blog = () => {
   const categories = ['All', 'Web Development', 'Design', 'Digital Marketing', 'Development', 'Branding'];
 
   return (
-    <div className="pt-16">
+    <div className="pt-24">
       <Helmet>
         <title>Blog | Digital Agency - Insights & Tips</title>
         <meta name="description" content="Stay updated with the latest insights, tips, and trends in web development, digital marketing, and design from our expert team." />

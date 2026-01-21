@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope, FaPhone, Fa
 import logo from '../assets/images/logo-mega-infotech.png';
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
+//   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-mega-dark text-gray-300 border-t border-accent-cyan/20">
@@ -65,22 +65,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="mt-1 mr-3 text-accent-cyan flex-shrink-0" />
-                <span>123 Tech Avenue, San Francisco, USA</span>
+                <span>5900 Balacones Dr STE-100<br />AUSTIN TX 78731</span>
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-3 text-accent-cyan flex-shrink-0" />
-                <span>+1 (800) 123-4567</span>
+                <span>+91 9794015779</span>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-3 text-accent-cyan flex-shrink-0" />
-                <span>hello@megainfotech.com</span>
+                <span>info@megainfotec.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p>&copy; {currentYear} MEGA INFOTECH - IT Consulting Services. All rights reserved. | <Link to="/contact" className="text-accent-cyan hover:text-white transition-colors">Privacy Policy</Link></p>
+          <p>&copy; 2024 MEGA INFOTECH - IT Consulting Services. All rights reserved. | <Link to="/contact" className="text-accent-cyan hover:text-white transition-colors">Privacy Policy</Link></p>
         </div>
       </div>
     </footer>

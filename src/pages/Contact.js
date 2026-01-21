@@ -101,7 +101,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-16">
+    <div className="pt-24">
       <Helmet>
         <title>Contact Us | Digital Agency - Get in Touch</title>
           <title>Contact MEGA INFOTECH - Enterprise IT Consulting</title>
@@ -299,7 +299,7 @@ const Contact = () => {
                     <FaMapMarkerAlt className="text-blue-600 mt-1 mr-4 text-xl" />
                     <div>
                       <h4 className="font-semibold mb-1 text-blue-600">Address</h4>
-                      <p className="text-gray-600">123 Business Street<br />City, State 12345<br />Country</p>
+                      <p className="text-gray-600">5900 Balacones Dr STE-100<br />AUSTIN TX 78731</p>
                     </div>
                   </div>
 
@@ -307,7 +307,7 @@ const Contact = () => {
                     <FaPhone className="text-blue-600 mt-1 mr-4 text-xl flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold mb-1 text-blue-600">Phone</h4>
-                      <p className="text-gray-600">+1 (800) 123-4567<br />+1 (800) 123-4568</p>
+                      <p className="text-gray-600">+91 9794015779</p>
                     </div>
                   </div>
 
@@ -315,7 +315,7 @@ const Contact = () => {
                     <FaEnvelope className="text-blue-600 mt-1 mr-4 text-xl flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold mb-1 text-blue-600">Email</h4>
-                      <p className="text-gray-600">hello@megainfotech.com<br />support@megainfotech.com</p>
+                      <p className="text-gray-600">info@megainfotec.com</p>
                     </div>
                   </div>
 
@@ -323,7 +323,7 @@ const Contact = () => {
                     <FaClock className="text-blue-600 mt-1 mr-4 text-xl flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold mb-1 text-blue-600">Business Hours</h4>
-                      <p className="text-gray-600">Mon - Fri: 8:00 AM - 8:00 PM<br />Sat: 10:00 AM - 4:00 PM<br />24/7 Support Available</p>
+                      <p className="text-gray-600">Monday - Sunday: 9:00 AM - 6:00 PM<br />24/7 Emergency Support Available</p>
                     </div>
                   </div>
                 </div>
@@ -335,7 +335,7 @@ const Contact = () => {
                   Ready to discuss your IT transformation? Reach out to our team today.
                 </p>
                 <a
-                  href="tel:+18001234567"
+                  href="tel:+919794015779"
                   className="block bg-accent-cyan text-mega-dark text-center px-6 py-3 rounded-full hover:bg-white transition-colors font-semibold"
                 >
                   Call Now

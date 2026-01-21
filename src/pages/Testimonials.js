@@ -9,7 +9,7 @@ const Testimonials = () => {
       name: 'David Williams',
       company: 'Tech Innovations Inc.',
       role: 'CEO',
-      image: 'https://via.placeholder.com/100x100/3B82F6/FFFFFF?text=DW',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=faces',
       rating: 5,
       text: 'Working with Digital Agency transformed our online presence. Their team delivered a stunning website that increased our conversions by 45%. Highly recommended!',
       project: 'Website Redesign'
@@ -19,7 +19,7 @@ const Testimonials = () => {
       name: 'Lisa Anderson',
       company: 'Fashion Forward',
       role: 'Marketing Director',
-      image: 'https://via.placeholder.com/100x100/3B82F6/FFFFFF?text=LA',
+      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=faces',
       rating: 5,
       text: 'The digital marketing campaign they created exceeded all our expectations. We saw a 300% increase in social media engagement and a significant boost in sales.',
       project: 'Digital Marketing'
@@ -29,7 +29,7 @@ const Testimonials = () => {
       name: 'Robert Chen',
       company: 'HealthTech Solutions',
       role: 'Product Manager',
-      image: 'https://via.placeholder.com/100x100/3B82F6/FFFFFF?text=RC',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=faces',
       rating: 5,
       text: 'Their mobile app development expertise is outstanding. They built us a secure, user-friendly healthcare app that our patients absolutely love.',
       project: 'Mobile App Development'
@@ -39,7 +39,7 @@ const Testimonials = () => {
       name: 'Jennifer Martinez',
       company: 'Global Logistics',
       role: 'Operations Director',
-      image: 'https://via.placeholder.com/100x100/3B82F6/FFFFFF?text=JM',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=faces',
       rating: 5,
       text: 'Professional, responsive, and incredibly talented. They helped us modernize our entire digital infrastructure. The results speak for themselves.',
       project: 'Web Application'
@@ -49,7 +49,7 @@ const Testimonials = () => {
       name: 'Thomas Brown',
       company: 'Startup Ventures',
       role: 'Founder',
-      image: 'https://via.placeholder.com/100x100/3B82F6/FFFFFF?text=TB',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=faces',
       rating: 5,
       text: 'From branding to web development, they handled everything perfectly. Their creative approach and attention to detail made all the difference.',
       project: 'Branding & Website'
@@ -59,7 +59,7 @@ const Testimonials = () => {
       name: 'Amanda Taylor',
       company: 'Education Plus',
       role: 'Director',
-      image: 'https://via.placeholder.com/100x100/3B82F6/FFFFFF?text=AT',
+      image: 'https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200&h=200&fit=crop&crop=faces',
       rating: 5,
       text: 'Amazing team to work with! They developed an e-learning platform that has revolutionized how we deliver education. Couldn\'t be happier!',
       project: 'E-Learning Platform'
@@ -72,7 +72,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div className="pt-24">
       <Helmet>
         <title>Client Testimonials | Digital Agency - What Our Clients Say</title>
         <meta name="description" content="Read success stories from our satisfied clients. 98% client satisfaction and 200+ happy clients trust us with their digital needs." />
