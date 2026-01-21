@@ -307,7 +307,7 @@ const Contact = () => {
                     <FaPhone className="text-blue-600 mt-1 mr-4 text-xl flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold mb-1 text-blue-600">Phone</h4>
-                      <p className="text-gray-600">+91 9794015779</p>
+                      <p className="text-gray-600">+1 9794015779</p>
                     </div>
                   </div>
 
@@ -335,7 +335,7 @@ const Contact = () => {
                   Ready to discuss your IT transformation? Reach out to our team today.
                 </p>
                 <a
-                  href="tel:+919794015779"
+                  href="tel:+19794015779"
                   className="block bg-accent-cyan text-mega-dark text-center px-6 py-3 rounded-full hover:bg-white transition-colors font-semibold"
                 >
                   Call Now
@@ -351,7 +351,7 @@ const Contact = () => {
         <div className="w-full h-96 bg-gray-300">
           <iframe
             title="Location Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1841935654387!2d-73.98784368459395!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.4936826779783!2d-97.7591384!3d30.346913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cb4d2ea0cf0f%3A0x3f7d6b1ec6a6b0a6!2s5900%20Balcones%20Dr%20STE%20100%2C%20Austin%2C%20TX%2078731!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
             width="100%"
             height="100%"
             style={{ border: 0 }}

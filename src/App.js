@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import ScrollToTopButton from './components/ScrollToTopButton';
+import WhatsAppButton from './components/WhatsAppButton';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
@@ -37,6 +38,7 @@ function App() {
           </main>
           <Footer />
           <ScrollToTopButton />
+          <WhatsAppButton />
         </div>
       </Router>
     </HelmetProvider>
