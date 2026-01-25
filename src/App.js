@@ -10,9 +10,10 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
-import Testimonials from './pages/Testimonials';
+import Clients from './pages/Clients';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import Careers from './pages/Careers';
 import NotFound from './pages/NotFound';
 import './App.css';
 
@@ -26,13 +27,16 @@ function App() {
           <main className="flex-grow">
             <Routes>
               <Route path="/MegaInfoTech-it-consulting" element={<Navigate to="/" replace />} />
+              <Route path="/buddhablessingspa.co.in" element={<Navigate to="/" replace />} />
               <Route path="/" element={<Home />} />
               <Route path="/services" element={<Services />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/about" element={<About />} />
-              <Route path="/testimonials" element={<Testimonials />} />
+              <Route path="/clients" element={<Clients />} />
+              <Route path="/testimonials" element={<Clients />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/careers" element={<Careers />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

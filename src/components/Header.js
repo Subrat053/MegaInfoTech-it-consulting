@@ -30,7 +30,8 @@ const Header = () => {
     { name: 'Services', path: '/services' },
     { name: 'Portfolio', path: '/portfolio' },
     { name: 'About', path: '/about' },
-    { name: 'Testimonials', path: '/testimonials' },
+    { name: 'Clients', path: '/clients' },
+    { name: 'Careers', path: '/careers' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -45,7 +46,7 @@ const Header = () => {
           <Link to="/" className="text-2xl font-bold flex items-center gap-2 group">
             {/* <span className="cosmic-gradient-text text-lg">▰▰ MEGA</span>
             <span className="text-white group-hover:text-accent-cyan transition-colors">INFOTECH</span> */}
-            <img src={logo} alt="Mega Infotech Logo" className="w-50 h-[60px] scale-150 text-xl"/>
+            <img src={logo} alt="Mega Infotech Logo" className="w-30 lg:w-50 h-[50px] lg:h-[60px] scale-125 lg:scale-150 text-xl"/>
           </Link>
 
           {/* Desktop Menu */}
@@ -88,7 +89,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 glass-effect rounded-lg p-4 animate-slide-down">
+          <div className="md:hidden w-full mt-4 pb-4 glass-effect rounded-lg p-4 animate-slide-down">
             {menuItems.map((item) => (
               <Link
                 key={item.path}

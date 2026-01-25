@@ -1,6 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FaCalendar, FaUser, FaArrowRight } from 'react-icons/fa';
+import img1 from '../assets/megainfo-images/SEO.png';
+import img2 from '../assets/megainfo-images/WEB.webp';
+import img3 from '../assets/megainfo-images/brand.jpg';
+import img4 from '../assets/megainfo-images/mobile.jpg';
+import img5 from '../assets/megainfo-images/react.jpg';
+
 
 const Blog = () => {
   const blogPosts = [
@@ -11,7 +17,7 @@ const Blog = () => {
       author: 'John Smith',
       date: 'January 15, 2026',
       category: 'Web Development',
-      image: 'https://source.unsplash.com/1200x800/?web,development,code',
+      image: img2,
       readTime: '5 min read'
     },
     {
@@ -21,7 +27,7 @@ const Blog = () => {
       author: 'Sarah Johnson',
       date: 'January 12, 2026',
       category: 'Design',
-      image: 'https://source.unsplash.com/1200x800/?mobile,ui,design',
+      image: img4,
       readTime: '7 min read'
     },
     {
@@ -31,7 +37,7 @@ const Blog = () => {
       author: 'Michael Chen',
       date: 'January 10, 2026',
       category: 'Digital Marketing',
-      image: 'https://source.unsplash.com/1200x800/?seo,analytics,marketing',
+      image: img1,
       readTime: '6 min read'
     },
     {
@@ -41,7 +47,7 @@ const Blog = () => {
       author: 'Emily Davis',
       date: 'January 8, 2026',
       category: 'Development',
-      image: 'https://source.unsplash.com/1200x800/?javascript,code,performance',
+      image: img5,
       readTime: '8 min read'
     },
     {
@@ -51,7 +57,7 @@ const Blog = () => {
       author: 'Lisa Anderson',
       date: 'January 5, 2026',
       category: 'Branding',
-      image: 'https://source.unsplash.com/1200x800/?branding,design,logo',
+      image: img3,
       readTime: '5 min read'
     },
     {
@@ -61,7 +67,7 @@ const Blog = () => {
       author: 'Robert Chen',
       date: 'January 3, 2026',
       category: 'Design',
-      image: 'https://source.unsplash.com/1200x800/?ux,ui,design',
+      image: img4,
       readTime: '6 min read'
     }
   ];
@@ -208,7 +214,7 @@ const Blog = () => {
           <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
             Get the latest insights, tips, and updates delivered straight to your inbox
           </p>
-          <div className="max-w-md mx-auto flex gap-4">
+          <div className="max-w-md mx-auto flex lg:flex-row flex-col gap-4">
             <input
               type="email"
               placeholder="Enter your email"
