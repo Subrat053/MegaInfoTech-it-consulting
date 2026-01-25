@@ -1,25 +1,25 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FaHandshake, FaTrophy, FaGlobe } from 'react-icons/fa';
-
+import logo1 from '../assets/clients/Google.png'
 const Clients = () => {
   const clientLogos = [
-    { id: 1, name: 'ABC Bancorp', color: 'bg-blue-50' },
-    { id: 2, name: 'Sony Music', color: 'bg-red-50' },
-    { id: 3, name: 'FEB', color: 'bg-red-50' },
-    { id: 4, name: 'Capital One', color: 'bg-red-50' },
-    { id: 5, name: 'Best Cardholder', color: 'bg-gray-50' },
-    { id: 6, name: 'Vanguard', color: 'bg-red-50' },
-    { id: 7, name: 'NCDHS', color: 'bg-yellow-50' },
-    { id: 8, name: 'ISBU', color: 'bg-orange-50' },
-    { id: 9, name: 'Chircos', color: 'bg-gray-50' },
-    { id: 10, name: 'Verizon', color: 'bg-red-50' },
-    { id: 11, name: 'EdiCore', color: 'bg-black' },
-    { id: 12, name: 'GSK', color: 'bg-orange-50' },
-    { id: 13, name: 'US Bank', color: 'bg-red-50' },
-    { id: 14, name: 'PennsylvaniaDA', color: 'bg-blue-50' },
-    { id: 15, name: 'AMEX', color: 'bg-blue-50' },
-    { id: 16, name: 'GEICO', color: 'bg-gray-50' },
+    { id: 1, name: 'ABC Bancorp', color: 'bg-blue-50', logo: logo1 },
+    { id: 2, name: 'Sony Music', color: 'bg-red-50', logo: logo1 },
+    { id: 3, name: 'FEB', color: 'bg-red-50', logo: logo1 },
+    { id: 4, name: 'Capital One', color: 'bg-red-50', logo: logo1 },
+    { id: 5, name: 'Best Cardholder', color: 'bg-gray-50', logo: logo1 },
+    { id: 6, name: 'Vanguard', color: 'bg-red-50', logo: logo1 },
+    { id: 7, name: 'NCDHS', color: 'bg-yellow-50', logo: logo1 },
+    { id: 8, name: 'ISBU', color: 'bg-orange-50', logo: logo1 },
+    { id: 9, name: 'Chircos', color: 'bg-gray-50', logo: logo1 },
+    { id: 10, name: 'Verizon', color: 'bg-red-50', logo: logo1 },
+    { id: 11, name: 'EdiCore', color: 'bg-black', logo: logo1 },
+    { id: 12, name: 'GSK', color: 'bg-orange-50', logo: logo1 },
+    { id: 13, name: 'US Bank', color: 'bg-red-50', logo: logo1 },
+    { id: 14, name: 'PennsylvaniaDA', color: 'bg-blue-50', logo: logo1 },
+    { id: 15, name: 'AMEX', color: 'bg-blue-50', logo: logo1 },
+    { id: 16, name: 'GEICO', color: 'bg-gray-50', logo: logo1 },
   ];
 
   const stats = [
@@ -95,7 +95,7 @@ const Clients = () => {
               >
                 <div className="text-center">
                   <div className={`w-full h-24 ${client.color} rounded-lg flex items-center justify-center mb-4 group-hover:shadow-glow-lg transition-all`}>
-                    <span className="text-gray-400 font-bold text-sm">Logo</span>
+                    <img src={client.logo} alt={`${client.name} logo`} className="max-h-full max-w-full object-contain" />
                   </div>
                   <p className="text-white font-semibold text-sm group-hover:text-accent-cyan transition-colors">
                     {client.name}
