@@ -1,25 +1,49 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FaHandshake, FaTrophy, FaGlobe } from 'react-icons/fa';
-import logo1 from '../assets/clients/Google.png'
+import logo1 from '../assets/clients/1.webp';
+import logo2 from '../assets/clients/2.png';
+import logo3 from '../assets/clients/3.png';
+import logo4 from '../assets/clients/4.png';
+import logo5 from '../assets/clients/5.png';
+import logo6 from '../assets/clients/6-ncdhhs.webp';
+import logo7 from '../assets/clients/7-evicore.png';
+import logo8 from '../assets/clients/8-Pennsylvania.jpg';
+import logo9 from '../assets/clients/9-sony-music.webp';
+import logo10 from '../assets/clients/10-Vanguard.png';
+import logo11 from '../assets/clients/12-verizon.png';
+import logo12 from '../assets/clients/12--verizon.png';
+import logo13 from '../assets/clients/13-nyc.png';
+import logo14 from '../assets/clients/14-cardinal-health.png';
+import logo15 from '../assets/clients/15-chico.png';
+import logo16 from '../assets/clients/16-us-bank.png';
+import logo17 from '../assets/clients/17-amex.jpg';
+import logo18 from '../assets/clients/18-best-buy.png';
+import logo19 from '../assets/clients/19-geico.png';
+import logo20 from '../assets/clients/20-aa-insurrance.webp';
+
 const Clients = () => {
   const clientLogos = [
-    { id: 1, name: 'ABC Bancorp', color: 'bg-blue-50', logo: logo1 },
-    { id: 2, name: 'Sony Music', color: 'bg-red-50', logo: logo1 },
-    { id: 3, name: 'FEB', color: 'bg-red-50', logo: logo1 },
-    { id: 4, name: 'Capital One', color: 'bg-red-50', logo: logo1 },
-    { id: 5, name: 'Best Cardholder', color: 'bg-gray-50', logo: logo1 },
-    { id: 6, name: 'Vanguard', color: 'bg-red-50', logo: logo1 },
-    { id: 7, name: 'NCDHS', color: 'bg-yellow-50', logo: logo1 },
-    { id: 8, name: 'ISBU', color: 'bg-orange-50', logo: logo1 },
-    { id: 9, name: 'Chircos', color: 'bg-gray-50', logo: logo1 },
-    { id: 10, name: 'Verizon', color: 'bg-red-50', logo: logo1 },
-    { id: 11, name: 'EdiCore', color: 'bg-black', logo: logo1 },
-    { id: 12, name: 'GSK', color: 'bg-orange-50', logo: logo1 },
-    { id: 13, name: 'US Bank', color: 'bg-red-50', logo: logo1 },
-    { id: 14, name: 'PennsylvaniaDA', color: 'bg-blue-50', logo: logo1 },
-    { id: 15, name: 'AMEX', color: 'bg-blue-50', logo: logo1 },
-    { id: 16, name: 'GEICO', color: 'bg-gray-50', logo: logo1 },
+    { id: 1, name: 'Capital One', color: 'bg-white', logo: logo1 },
+    { id: 2, name: 'fiserv', color: 'bg-transparent', logo: logo2 },
+    { id: 3, name: 'GSK', color: 'bg-transparent', logo: logo3 },
+    { id: 4, name: 'The hartford', color: 'bg-red-50', logo: logo4 },
+    { id: 5, name: 'H.E.B', color: 'bg-white', logo: logo5 },
+    { id: 6, name: 'NCDHHS', color: 'bg-white', logo: logo6 },
+    { id: 7, name: 'EviCore ', color: 'bg-white', logo: logo7 },
+    { id: 8, name: 'Pennsylvania', color: 'bg-white', logo: logo8 },
+    { id: 9, name: 'Sony Music', color: 'bg-white', logo: logo9 },
+    { id: 10, name: 'Vanguard ', color: 'bg-red-50', logo: logo1 },
+    { id: 11, name: 'Verizon', color: 'bg-white', logo: logo11 },
+    { id: 12, name: 'Verizon', color: 'bg-orange-50', logo: logo12 },
+    { id: 13, name: 'NYC', color: 'bg-red-50', logo: logo13 },
+    { id: 14, name: 'Cardinal Health', color: 'bg-blue-50', logo: logo14 },
+    { id: 15, name: 'Chico\'s', color: 'bg-blue-50', logo: logo15 },
+    { id: 16, name: 'Us Bank', color: 'bg-gray-50', logo: logo16 },
+    { id: 17, name: 'AMEX', color: 'bg-white', logo: logo17 },
+    { id: 18, name: 'Best Buy', color: 'bg-gray-50', logo: logo18 },
+    { id: 19, name: 'GEICO', color: 'bg-gray-50', logo: logo19 },
+    { id: 20, name: 'AA Insurrance', color: 'bg-white', logo: logo20 },
   ];
 
   const stats = [
@@ -91,10 +115,10 @@ const Clients = () => {
             {clientLogos.map((client) => (
               <div
                 key={client.id}
-                className="group cosmic-card p-8 flex items-center justify-center min-h-[200px] hover:scale-105 transition-all duration-300"
+                className="group cosmic-card p-2 lg:px-6 lg:py-8  align-center justify-center min-h-[200px] hover:scale-105 transition-all duration-300"
               >
                 <div className="text-center">
-                  <div className={`w-full h-24 ${client.color} rounded-lg flex items-center justify-center mb-4 group-hover:shadow-glow-lg transition-all`}>
+                  <div className={`w-full h-24 ${client.color} bg-white rounded-lg flex justify-center mb-4  transition-all`}>
                     <img src={client.logo} alt={`${client.name} logo`} className="max-h-full max-w-full object-contain" />
                   </div>
                   <p className="text-white font-semibold text-sm group-hover:text-accent-cyan transition-colors">
