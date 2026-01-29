@@ -104,7 +104,7 @@ const Careers = () => {
     setSubmitNote('');
 
     const endpoint = process.env.REACT_APP_CAREERS_FORM_ENDPOINT; // optional integration
-    const hrEmail = process.env.REACT_APP_CAREERS_EMAIL || 'info@megainfotec.com'; // optional mailto fallback
+    const hrEmail = process.env.REACT_APP_CAREERS_EMAIL || 'info@megainfotech.net'; // optional mailto fallback
 
     try {
       if (endpoint) {

@@ -69,11 +69,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-3 text-accent-cyan flex-shrink-0" />
-                <span>+1 9794015779</span>
+                <span>+1 8323787779</span>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-3 text-accent-cyan flex-shrink-0" />
-                <span>info@megainfotec.com</span>
+                <span>info@megainfotech.net</span>
               </li>
             </ul>
           </div>

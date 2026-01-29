@@ -47,7 +47,7 @@ const Home = () => {
   const stats = [
     { number: '50+', label: 'Enterprise Clients' },
     { number: '99.9%', label: 'System Uptime' },
-    { number: '2+', label: 'Years Experience' },
+    { number: '10+', label: 'Years Experience' },
     { number: '20+', label: 'Expert Team Members' }
   ];
 
