@@ -69,7 +69,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-3 text-accent-cyan flex-shrink-0" />
-                <span>+1 8323787779</span>
+                <span>+1 3183508298</span>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-3 text-accent-cyan flex-shrink-0" />

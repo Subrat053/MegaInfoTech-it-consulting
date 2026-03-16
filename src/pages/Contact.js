@@ -307,7 +307,7 @@ const Contact = () => {
                     <FaPhone className="text-blue-600 mt-1 mr-4 text-xl flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold mb-1 text-blue-600">Phone</h4>
-                        <p className="text-gray-600">+1 8323787779</p>
+                        <p className="text-gray-600">+1 3183508298</p>
                     </div>
                   </div>
 
@@ -335,7 +335,7 @@ const Contact = () => {
                   Ready to discuss your IT transformation? Reach out to our team today.
                 </p>
                 <a
-                  href="tel:+18323787779"
+                  href="tel:+13183508298"
                   className="block bg-accent-cyan text-mega-dark text-center px-6 py-3 rounded-full hover:bg-white transition-colors font-semibold"
                 >
                   Call Now
